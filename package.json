@@ -1,0 +1,32 @@
+{
+  "name": "jun",
+  "version": "1.0.0",
+  "description": "just try react",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.dev.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jun95585/React.git"
+  },
+  "author": "jun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jun95585/React/issues"
+  },
+  "homepage": "https://github.com/jun95585/React#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "jquery": "^3.3.1"
+  },
+  "dependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  }
+}
